@@ -6,7 +6,7 @@ int main() {
   greet();
 
   std::string codeword = "hiretay";
-  std::string answer = "_______";
+  std::string answer = "_______";//must match the length of codeword
   int misses = 0;
   std::vector<char> incorrect;
   bool guess = false;
